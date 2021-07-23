@@ -2,7 +2,6 @@ const assert = require('assert');
 const percySnapshot = require('@percy/webdriverio');
 
 const TEST_URL = 'https://k8s.bsstag.com';
-const TEST_WIDTHS = [375, 480, 720, 1280, 1440, 1920];
 
 describe('Browserstack Page', () => {
    it('should have the Correct Page title', async () => {
