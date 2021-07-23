@@ -42,7 +42,6 @@ $ export PERCY_TOKEN=<your token here>
 ### Step 3:  Run Project
 
 ```bash
-$ npm install
 $ npm run prod
 ```
 This will create the base build
