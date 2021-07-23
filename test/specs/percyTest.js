@@ -8,7 +8,6 @@ describe('Browserstack Page', () => {
    it('should have the Correct Page title', async () => {
 
         await browser.url(TEST_URL);
-        await browser.pause(5000);
         await percySnapshot(browser,'Browserstack Homepage');
             
         await browser.url(TEST_URL+'/pricing'); 
